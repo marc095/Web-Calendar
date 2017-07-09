@@ -14,5 +14,13 @@ if(do == "ready"){
 //call 
 }
 return;
+function dosomething(impossible){
+if(!impossible){
+do = readyToDoThis("yes");
+}
+}
+function readyToDoThis(ready){
+if(ready == "yes") return "ready";
+return "not";
 }
 </script>
